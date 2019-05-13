@@ -1,0 +1,125 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+}
+
+.container{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 200px;
+	width: 1570px;
+
+}
+
+.zeus-header{
+	background-image: url(../img/bcg-top.png);
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	color: #1A1C0F;
+
+	display: flex;
+
+}
+
+.logo{
+	width: 153px;
+	height: 163px;
+	margin-top: 121px;
+	left: 0;
+}
+
+h1, .header_quote{
+	font-family: 'Cinzel Decorative', cursive;
+	color: #fff
+}
+
+.header-text{
+	margin-top: 145px;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 21px;
+	position: relative;
+	font-size: 60.01px;
+	line-height: 1em;
+}
+
+h1:before,
+h1:after{
+	content: '';
+	width: 242px;
+	height: 4px;
+	background-color: #CDB378;
+	position: absolute;
+}
+
+
+h1:before{
+	top: 30.5px;
+	left: 438px;
+}
+
+h1:after{
+top: 30.5px;
+right: 441px;	
+}
+
+.header_quote{
+	margin: 0;
+	font-size: 36px;
+	line-height: 1.6669em;
+}
+
+.header_quote-auther{
+	font-family: inherit;
+	color: #fff;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.25em;
+}
+
+.header-btn{
+	position: absolute;
+	bottom: 88px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	font-family: inherit;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.87em;
+}
+
+.header-btn:before,
+.header-btn:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 10px;
+	width: 1px;
+	background-color: #fff;
+
+	display: inline-block;
+}
+
+.header-btn:before{
+	transform: rotate(45deg);
+	top: 28px;
+    left: 75px;
+}
+
+.header-btn:after{
+	transform: rotate(-45deg);
+	top: 28px;
+	left: 68px;
+}
