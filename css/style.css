@@ -9,10 +9,10 @@ body{
 }
 
 .container{
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 200px;
-	width: 1570px;
+	padding-left: 0.75vw;
+	padding-right: 0.75vw;
+	margin: 0 10vw;
+	width: 78.5vw;
 
 }
 
@@ -31,9 +31,9 @@ body{
 }
 
 .logo{
-	width: 153px;
-	height: 163px;
-	margin-top: 121px;
+	width: 7.65vw;
+	height: 8.15vw;
+	margin-top: 6.05vw;
 	left: 0;
 }
 
@@ -43,40 +43,40 @@ h1, .header_quote{
 }
 
 .header-text{
-	margin-top: 145px;
+	margin-top: 7.25vw;
 }
 
 h1{
 	margin-top: 0;
-	margin-bottom: 21px;
+	margin-bottom: 1.05vw;
 	position: relative;
-	font-size: 60.01px;
+	font-size: 3.75em;
 	line-height: 1em;
 }
 
 h1:before,
 h1:after{
 	content: '';
-	width: 242px;
-	height: 4px;
+	width: 12.1vw;
+	height: 0.2vw;
 	background-color: #CDB378;
 	position: absolute;
 }
 
 
 h1:before{
-	top: 30.5px;
-	left: 438px;
+	top: 1.525vw;
+	left: 20.5vw;
 }
 
 h1:after{
-top: 30.5px;
-right: 441px;	
+top: 1.525vw;
+right: 21.05vw;	
 }
 
 .header_quote{
 	margin: 0;
-	font-size: 36px;
+	font-size: 2em;
 	line-height: 1.6669em;
 }
 
@@ -84,17 +84,17 @@ right: 441px;
 	font-family: inherit;
 	color: #fff;
 	font-style: italic;
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 1.25em;
 }
 
 .header-btn{
 	position: absolute;
-	bottom: 88px;
+	bottom: 4.4vw;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: inherit;
-	font-size: 16px;
+	font-size: 1em;
 	color: #fff;
 	line-height: 1.87em;
 }
@@ -105,8 +105,8 @@ right: 441px;
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 10px;
-	width: 1px;
+	height: 0.5vw;
+	width: 0.05vw;
 	background-color: #fff;
 
 	display: inline-block;
@@ -114,14 +114,14 @@ right: 441px;
 
 .header-btn:before{
 	transform: rotate(45deg);
-	top: 28px;
-    left: 75px;
+	top: 1.4vw;
+    left: 4vw;
 }
 
 .header-btn:after{
 	transform: rotate(-45deg);
-	top: 28px;
-	left: 68px;
+	top: 1.4vw;
+	left: 3.68vw;
 }
 
 section{
@@ -131,95 +131,101 @@ section{
 
 
 .box1{
-	padding-bottom: 130px;
+	padding-bottom: 6.5vw;
+	width: 50vw;
 }
 
 .title-box1{
 	font-family: 'Cinzel Decorative', cursive;
-	font-size: 72.01px;
+	font-size: 3.6em;
 	line-height: 0.83em;
 }
 
 .title-box1{
-	padding-top: 107px;
-	margin-bottom: 10px;
-	color: #fff;	
+	padding-top: 5.35vw;
+	margin-bottom: 0.5vw;
+	color: #fff;
+	font-weight: lighter;
 }
 
 .text-box1{
 	font-family: 'Myriad Pro', sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #CCB278;
+	font-family: 'Amiri', serif;
+	font-size: 1.5em;	
 }
 
 .img-box1{
 	position: absolute;
-	top: -35px;
+	top: -1.75vw;
 	right: 0;
-	height: 635px;
-	width: 588px;
+	height: 31.75vw;
+	width: 29.4vw;
 	z-index: 0;
 }
 
 .second-box{
-	height: 496px;
-	width: 1730px;
+	height: 24.5vw;
+	width: 86.5vw;
 	background-color: #232615;
-	box-shadow: 0px -8px 28px 20px rgba(0,0,0,0.25), 
-				0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0px -0.4vw 1.4vw 1vw rgba(0,0,0,0.25), 
+				0 0.5vw 0.5vw rgba(0,0,0,0.22);
 	overflow: hidden;
 }
 
 .box2{
 	position: absolute;
+	width: 48.1vw;
 	z-index: 2;
-	height: 496px;
+	height: 24.8vw;
 	left: 0;
-	margin-left: 215px;
-	padding-top: 90px;
+	margin-left: 10.75vw;
+	padding-top: 4.5vw;
 }
 
 .title-box2{
-	padding-bottom: 40px;
+	padding-bottom: 2vw;
 	font-family: 'Cinzel Decorative', cursive;
-	font-size: 72.01px;
+	font-size: 4.5em;
 	line-height: 0.83em;
 	color: #CDB378;
+	font-weight: lighter;
 }
 
 .text-box2{
-	width: 900px;
+	width: 45vw;
 	font-family: 'Amiri', serif;
 	color: #b4ba98;
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 2em;
 }
 
 .img-box2{
 	position: absolute;
-    top: 55px;
-    right: 450px;
+    top: 2.75vw;
+    right: 22.5vw;
     z-index: 6;
-	filter: drop-shadow(5px 5px 15px #000);
+	filter: drop-shadow(0.25vw 0.25vw 0.75vw #000);
 }
 
 .bg-img{
 	width: 80%;
-    top: -200px;
-    right: -680px;
+    top: -10vw;
+    right: -34vw;
     position: absolute;
     opacity: 0.1;
     transform: rotate(13deg);
 }
 
 .box2-btn{
-	margin-top: 52px;
-	padding-top: 15px;
+	margin-top: 2.6vw;
+	padding-top: 0.75vw;
     text-align: center;
-	width: 225px;
-	height: 60px;
+	width: 11.25vw;
+	height: 3vw;
 	background-color: #272A18;
-	border: 1px solid #404429;
+	border: 0.05vw solid #404429;
 	cursor: pointer;
 }
 
@@ -227,12 +233,120 @@ section{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 1em;
 	font-family: 'Amiri', serif;
 }
 
 .box2-btn:hover,
 .box2-btn:focus,
 .box2-btn:active{
+	background-color: transparent;
+}
+
+.third-box{
+	background-image: url(../img/bcg-2.jpg);
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 44.3vw;
+}
+
+.box-3{
+	position: absolute;
+    right: 12.2vw;
+    top: 16.05vw;
+    width: 28.85vw;
+
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 3.75em;
+	line-height: 1.2em;
+	font-weight: 900;
+	color: #000;
+}
+
+.forth-box{
+	height: 51.5vw;
+}
+
+.box4-text{
+	padding-top: 7.3vw;
+	width: 35vw;
+}
+
+.title-box4{
+	margin-bottom: 3.6vw;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 3.75em;
+	line-height: 1.2em;
+	font-weight: 900;
+	color: #CDB378;
+}
+
+.text-box4{
+	font-family: 'Amiri', serif;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #ABB190;
+}
+
+.ph-4{
+	position: absolute;
+    top: -7.55vw;
+    right: 0;
+    width: 49.15vw;
+    height: 50.75vw;
+}
+
+.fifth-box{
+	background-image: url(../img/bg5.jpg);
+	height: 123vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box5-text{
+	padding-top: 0.5vw;
+	text-align: center;
+}
+
+.title-box5{
+	padding-bottom: 1.15vw;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 4.5em;
+	line-height: 0.83em;
+	color: #CDB378;
+	font-weight: lighter;
+}
+
+.text-box5{
+	font-family: 'Amiri', serif;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #ABB190;	
+}
+
+.box5-btn{
+	margin-left: 34vw;
+	margin-top: 2.5vw;
+	padding-top: 0.75vw;
+    text-align: center;
+	width: 11.25vw;
+	height: 3vw;
+	background-color: #1a190e;
+	border: 0.05vw solid #404429;
+	cursor: pointer;
+}
+
+.btn5{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-family: 'Amiri', serif;
+}
+
+.box5-btn:hover,
+.box5-btn:focus,
+.box5-btn:active{
 	background-color: transparent;
 }
